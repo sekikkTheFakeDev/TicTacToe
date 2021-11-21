@@ -37,7 +37,7 @@ document.addEventListener("click", function(event) {
             else if (boxes[1].classList.contains("X") && boxes[4].classList.contains("X") && boxes[7].classList.contains("X")) {
                 xwin = true;
             }
-            else if (boxes[3].classList.contains("X") && boxes[5].classList.contains("X") && boxes[8].classList.contains("X")) {
+            else if (boxes[2].classList.contains("X") && boxes[5].classList.contains("X") && boxes[8].classList.contains("X")) {
                 xwin = true;
             }
         }
@@ -67,7 +67,7 @@ document.addEventListener("click", function(event) {
             else if (boxes[1].classList.contains("O") && boxes[4].classList.contains("O") && boxes[7].classList.contains("O")) {
                 owin = true;
             }
-            else if (boxes[3].classList.contains("O") && boxes[5].classList.contains("O") && boxes[8].classList.contains("O")) {
+            else if (boxes[2].classList.contains("O") && boxes[5].classList.contains("O") && boxes[8].classList.contains("O")) {
                 owin = true;
             }
         }
