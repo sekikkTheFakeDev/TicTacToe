@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: #E28D1A;
+    --box: #348AC2;
+    --x: #C43939;
+    --o: #2D53D4;
+}
+
+body {
+    background: var(--bg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+    overflow: hidden;
+}
+
+#won {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,255, .85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+    z-index: 99999;
+}
+
+#what {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    gap: 10px;
+}
+
+#who {
+    font-weight: 700;
+    font-size: 75px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 100px;
+    transition: background 0.25s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:hover,
+a:focus-visible {
+    background: black;
+    color: white;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 630px;
+    height: 630px;
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.gridelem {
+    border-radius: 25px;
+    background: var(--box);
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.x1 {
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    border-radius: 25px;
+    background: white;
+    transform: rotate(45deg)
+}
+
+.x2 {
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    border-radius: 25px;
+    background: white;
+    transform: rotate(135deg);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 15px solid white;
+}
+
+.x1, .x2 {
+    visibility: hidden;
+}
+
+.circle {
+    visibility: hidden;
+}
+
+
+.X .x1,
+.X .x2 {
+    visibility: visible;
+}
+
+.X {
+    background: var(--x);
+}
+
+.O .circle {
+    visibility: visible;
+}
+
+.O {
+    background: var(--o);
+}

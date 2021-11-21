@@ -1,0 +1,83 @@
+@media only screen and (max-width: 768px) {
+    #grid {
+        width: 400px;
+        height: 400px;
+    }
+
+    .x1, .x2 {
+        width: 100px;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    #what {
+        font-size: 35px;
+    }
+
+    #who {
+        font-size: 60px;
+    }
+
+    a {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #grid {
+        width: 350px;
+        height: 350px;
+    }
+
+    .x1, .x2 {
+        width: 75px;
+    }
+
+    .circle {
+        width: 35px;
+        height: 35px;
+    }
+
+    #what {
+        font-size: 30px;
+    }
+
+    #who {
+        font-size: 50px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #grid {
+        width: 300px;
+        height: 300px;
+    }
+
+    .x1, .x2 {
+        width: 75px;
+    }
+
+    .circle {
+        width: 35px;
+        height: 35px;
+    }
+
+    #what {
+        font-size: 25px;
+    }
+
+    #who {
+        font-size: 45px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+}
