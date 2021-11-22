@@ -4,11 +4,11 @@
         height: 400px;
     }
 
-    .x1, .x2 {
+    .x1, .x2, .hx1, .hx2 {
         width: 100px;
     }
 
-    .circle {
+    .circle, .hcircle {
         width: 50px;
         height: 50px;
     }
@@ -32,11 +32,11 @@
         height: 350px;
     }
 
-    .x1, .x2 {
+    .x1, .x2, .hx1, .hx2 {
         width: 75px;
     }
 
-    .circle {
+    .circle, .hcircle {
         width: 35px;
         height: 35px;
     }
@@ -60,11 +60,11 @@
         height: 300px;
     }
 
-    .x1, .x2 {
+    .x1, .x2, .hx1, .hx2 {
         width: 75px;
     }
 
-    .circle {
+    .circle, .hcircle {
         width: 35px;
         height: 35px;
     }
